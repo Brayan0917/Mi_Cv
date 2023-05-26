@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.informacion {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.imagen_perfil {
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.imagen_perfil:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.habilidades {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.habilidades li {
+    margin-bottom: 10px;
+}
+
+.educacion,
+.experiencia-laboral,
+.idiomas {
+    margin-bottom: 20px;
+    border-left: 2px solid #555;
+    padding-left: 20px;
+}
+
+.educacion:hover,
+.experiencia-laboral:hover,
+.idiomas:hover {
+    background-color: #addbfd;
+}
+
+.educacion h2,
+.experiencia-laboral h2,
+.idiomas h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+.educacion ul,
+.experiencia-laboral ul,
+.idiomas ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
